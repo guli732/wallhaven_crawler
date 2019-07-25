@@ -33,6 +33,7 @@ def request_get(url, headers, page):
 
 
 def main():
+    print("*" * 8, "壁纸批量下载", "*" * 8)
     page_start = int(input("请输入开始页码:"))
     page_end = int(input("请输入结束页码:"))
     url = 'https://wallhaven.cc/toplist?page='
